@@ -138,5 +138,5 @@ B3セルを、2020年10月10日の形に変更
 ```ws['B3'].number_format = 'yyyy月mm年dd日'```  
 
 フォントの変更  
-3セルのフォントを、bold体 + イタリック体に変更する  
+A3セルのフォントを、bold体 + イタリック体に変更する  
 ```ws['A3'].font = openpyxl.styles.Font(bold=True,italic=True)```  
